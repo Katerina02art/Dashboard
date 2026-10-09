@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- === ЛЕВАЯ КОЛОНКА (САЙДБАР) === -->
+      <div class="container-menu">
+        <!-- Верхняя часть сайдбара (чтобы оторвать её от карточки Pro) -->
+        <div class="container-menu__top">
+          <div class="container-menu__logo">
+            <img
+              src="img/dummy logo.png"
+              alt="фон логотипа"
+              class="container-menu__background-logo"
+            />
+            <h2 class="container-menu__title-logo">Dabang</h2>
+          </div>
+
+          <nav class="menu-nav">
+            <ul class="menu-nav__list">
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link menu-nav__link--active">
+                  <img
+                    src="img/pie/pie1/Graph 1.svg"
+                    alt="Dashboard"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Dashboard</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Доскалидов.svg"
+                    alt="Leaderboard"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Leaderboard</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Корзина/Outline/Icon.svg"
+                    alt="Order"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Order</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Продукты.svg"
+                    alt="Products"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Products</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Статистика/Chart_Line.svg"
+                    alt="Sales Report"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Sales Report</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Сообщение.svg"
+                    alt="Messages"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Messages</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Настройки.svg"
+                    alt="Settings"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Settings</span>
+                </a>
+              </li>
+              <li class="menu-nav__item">
+                <a href="#" class="menu-nav__link">
+                  <img
+                    src="img/Выход.svg"
+                    alt="Sign Out"
+                    class="menu-nav__icon"
+                  />
+                  <span class="menu-nav__text">Sign Out</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Нижняя часть сайдбара (Карточка PRO теперь находится ВНУТРИ сайдбара) -->
+        <div class="upgrade">
+          <img
+            src="img/белыйлогослисточками.svg"
+            alt="Pro"
+            class="upgrade__icon"
+          />
+          <h3 class="upgrade__title">Dabang Pro</h3>
+          <p class="upgrade__text">Get access to all features on tetumbas</p>
+          <a href="#" class="upgrade__btn">Get Pro</a>
+        </div>
+      </div>
+
+      <!-- === ШАПКА === -->
+      <header class="header">
+        <h1>Dashboard</h1>
+        <!-- Заменили картинку на заголовок, как в макете -->
+
+        <div class="search">
+          <img src="img/иконкапоиска.svg" alt="Поиск" class="search__icon" />
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search here..."
+          />
+        </div>
+
+        <div class="header__controls">
+          <button class="lang-select">
+            <img src="img/флаг.svg" class="lang-select__flag" alt="US" />
+            <span class="lang-select__text">Eng (US)</span>
+            <img src="img/стрлкауфалаг.svg" class="lang-select__arrow" alt="" />
+          </button>
+
+          <button class="notifications">
+            <img
+              src="img/колокольчик.svg"
+              class="notifications__icon"
+              alt="Уведомления"
+            />
+            <span class="notifications__badge"></span>
+          </button>
+
+          <div class="user-profile">
+            <img src="img/Индус.svg" class="user-profile__avatar" alt="Admin" />
+            <div class="user-profile__info">
+              <span class="user-profile__name">Musfiq</span>
+              <span class="user-profile__role">Admin</span>
+            </div>
+            <img
+              src="img/Стрелкарядомсиндусом.png"
+              class="user-profile__arrow"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
+
+      <!-- === ГЛАВНЫЙ КОНТЕНТ === -->
+      <main></main>
+    </div>
+  </body>
+</html>
